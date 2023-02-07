@@ -1,0 +1,21 @@
+<header class="main-header">
+    <nav class="main-header__nav">
+        <ul class="main-header__item-list">
+            <li class="main-header__item">
+                <a class="<%= path === '/' ? 'active' : '' %>" href="/">Home</a>
+            </li>
+            <li class="main-header__item">
+                <a class="<%= path === '/login' ? 'active' : '' %>" href="/login">Login</a>
+            </li>
+            <li class="main-header__item">
+                <a class="<%= path === '/signup' ? 'active' : '' %>" href="/signup">Register here</a>
+            </li>
+                <li class="main-header__item">
+                <a class="<%= path === '/admin' ? 'active' : '' %>" href="/admin">admin</a>
+        </ul>
+    </nav>
+    <div class="toggle">
+        <button id="toggle-mode" type="button">Dark mode</button>
+    </div>
+   
+</header>

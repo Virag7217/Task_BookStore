@@ -1,0 +1,127 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 23px;
+    margin-top: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input{
+    padding: 10px 10px 10px 35px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 40%;
+    padding: 10px;
+    background-color: #3a9566;
+    color: #fff;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button[type="button"]:hover {
+    background-color: #000000;
+    cursor: pointer;
+    color: #ffffff;
+
+}
+
+button[type="submit"]:hover {
+    background-color: #000000;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+
+
+.acc{
+    text-align: center;
+    margin-top: 25px;
+}
+
+i{
+    color: #000000;
+    position: relative;
+    top: -29px;
+    left: 8px;
+    
+}
+
+button{
+    width: 6%;
+    padding: 10px;
+    background-color: #3a9566;
+    color: #fff;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.darkmode {
+    background-color: #222831;
+    color: white;
+    
+}
+.darkmode input{
+    background-color: #393E46;
+    color: white;
+    border-color: #BFACE2;
+    
+}
+.darkmode textarea{
+    background-color: #393E46;
+    color: white;
+    border-color: #BFACE2;
+    
+}
+.darkmode i{
+    background-color: #393E46;
+    color: white;
+    
+}
+
+.darkmode .container {
+    background-color: #393E46;
+    color: #BFACE2;
+    /* box-shadow: 5px 7px 5px 7px  #3a9566c1; */
+}
+
+
+
+
